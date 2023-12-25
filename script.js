@@ -1,22 +1,26 @@
 $ = document.querySelector.bind(document);
 
 
-colorTheme={
-    compColor: "lightblue"
+colorTheme = {
+    companyColor: "blue",
+    companyBackgroundColor: "red",
+};
+
+
+function setCompanyStyle(){
+    companyHeaderHeader = $("#company");
+    companyHeader.style.color = colorTheme.companyColor;
+    companyHeader.style.backgroundColor = colorTheme.companyBackgroundColor;
 }
 
 
-
-
-function setCompStyle(){
-    compHeader= $("#comp");
-    compHeader.style.color=colorTheme.compColor;
-    compHeader.style.backgroundColor=colorTheme.compBackgroundColor;
+function setCompanyStyle() {
+    setCompanyStyle();
 }
 
 
 button =$("#clickMe-button");
-button.onclick= setHeader;
+button.onclick= setCompanyStyle;
 
 
 
