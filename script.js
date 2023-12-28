@@ -1,26 +1,14 @@
 $ = document.querySelector.bind(document);
 
-
-colorTheme = {
-    companyColor: "blue",
-    companyBackgroundColor: "red",
-};
-
-
-function setCompanyStyle(){
-    companyHeaderHeader = $("#company");
-    companyHeader.style.color = colorTheme.companyColor;
-    companyHeader.style.backgroundColor = colorTheme.companyBackgroundColor;
+function changeClover(){
+  
+  window.alert("clover");
+  cloverElement = $("#clover-h2");
+  cloverElement.style.color = 'red';
 }
 
-
-function setCompanyStyle() {
-    setCompanyStyle();
-}
-
-
-button =$("#clickMe-button");
-button.onclick= setCompanyStyle;
+cloverbutton = $('#btn-click');
+cloverbutton.onclick = changeClover;
 
 
 
