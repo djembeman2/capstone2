@@ -1,9 +1,11 @@
 function onButtonClick(){
   alert('We Making Music');
+  const musicTitle= document.querySelector('#clover-h2');
+  musicTitle.style.backgroundColor="red";
 }
 
 
-const button = document.querySelector('button')
+const button = document.querySelector('#music-btn')
 button.addEventListener('click', onButtonClick);
 
 
