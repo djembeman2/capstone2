@@ -1,18 +1,10 @@
-$ = document.querySelector.bind(document);
-
-function changeClover(){
-  
-  window.alert("clover");
-  cloverElement = $("#clover-h2");
-  cloverElement.style.color = 'red';
+function onButtonClick(){
+  alert('Making Music');
 }
 
-cloverbutton = $('#btn-click');
-cloverbutton.onclick = changeClover;
 
-
-
-
+const button = document.querySelector('button')
+button.addEventListener('click', onButtonClick);
 
 
 
