@@ -9,14 +9,6 @@ const button = document.querySelector('#music-btn')
 button.addEventListener('click', onButtonClick);
 
 
-const newButton = document.createElement('button');
-newButton.textContent = 'New Music!';
-document.body.appendChild(newButton);
-
-
-newButton.addEventListener('click', () => {
-  alert('Haus Of Percussion is on itunes!');
-});
 
 alert ("Want to hear a joke?");
 
